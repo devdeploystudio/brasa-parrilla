@@ -1,0 +1,26 @@
+# Claude Code
+.claude/
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editores
+.vscode/
+.idea/
+*.swp
+
+# Logs
+*.log
+npm-debug.log*
+
+# Dependencias (por si en algún momento se suma tooling)
+node_modules/
+
+# Entorno / secretos
+.env
+.env.local
+
+# Imágenes originales sin optimizar (se mantienen fuera del repo; las copias listas para web viven en assets/img)
+/originals/
